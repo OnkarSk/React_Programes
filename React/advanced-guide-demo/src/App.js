@@ -22,7 +22,7 @@ class App extends Component {
 		return (
 			<div className="App">
 					<ComponentC />
-				{/* <Counter
+				 <Counter
 					render={(count, incrementCount) =>
 					<ClickCounterTwo
 						count={count}
@@ -35,15 +35,15 @@ class App extends Component {
 						count={count}
 						incrementCount={incrementCount}>
 					</HoverCounterTwo>}>
-				</Counter> */}
-				{/* <ClickCounter name='Vishwas' /> */}
-				{/* <HoverCounter /> */}
-				{/* <ParentComp /> */}
-				{/* <Hero heroName="Batman" />
+				</Counter> 
+				 <ClickCounter name='Vishwas' /> 
+				 <HoverCounter /> 
+				<ParentComp /> 
+				 <Hero heroName="Batman" />
 				<Hero heroName="Superman" />
 				<ErrorBoundary>
-					<Hero heroName="Joker" />
-				</ErrorBoundary> */}
+					<Hero heroName="Joker1" />
+				</ErrorBoundary> 
 			</div>
 		)
 	}

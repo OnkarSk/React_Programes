@@ -1,0 +1,51 @@
+****download the git code****
+if(not download yet)
+{
+  open git bash in any folder
+  git clone  https://github.com/OnkarSk/React_Programes.git
+}
+git pull
+
+
+***Router***
+open folder in VS code
+npm install---> npm start
+
+1. chnage router version to 6
+2. use exact keyword in router
+3. create component named contactUs. route to contact us component on click of contact us
+
+
+******http*********
+open folder in VS code
+npm install---> npm start
+
+4. try get api with defferent scanerio
+uncomment the get api code from app.js
+ 1. for error
+ 2. pass payload
+ 3. success to get value
+
+method type:
+
+get - read, retrieve
+post - Insert
+put - update
+delete - delete
+
+******styling******
+
+
+
+
+
+
+finally {
+press ctrl+C and shutdonw the node server
+}
+
+
+C - Create - Post
+R - Read - get
+U - Update - Put
+D - Delete - delete
