@@ -21,7 +21,7 @@ const withCounter = (WrappedComponent, incrementNumber) => {
 				<WrappedComponent
           count={this.state.count}
           incrementCount={this.incrementCount}
-          {...this.props.name}
+          name={this.props.name}
 				/>
 			)
 		}

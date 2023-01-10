@@ -1,0 +1,51 @@
+0. Context and props drilling - Context allows passing data through the component tree without passing props down manually at every level.
+1. Refs - it directlyu access the real DOM. perform the real DOM operation.
+2. Fragment <></>-avoid extra node in DOM so that we increase the performance of the application
+3. Error Boundry -- handle the exception. when any exception raised. we wrap component in errorhandler 
+4. HOC- take function as argument or take component as argument and return new co mponent
+
+
+//Function Creation  
+function add (a=10, b) {  
+  return a + b  
+}  
+function higherOrder(a, addReference) {  
+  return addReference(a, 20)  
+}  
+//Function call  
+higherOrder(30, add) // 50  
+
+add(30,20);//50
+
+
+**********************HOOKS***************************
+1. state hook
+2. effect hook
+3. context hook
+4. ref hook
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

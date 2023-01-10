@@ -7,6 +7,7 @@ import HookCounterThree from './components/HookCounterThree'
 import ClassCounterTwo from './components/ClassCounterTwo'
 import HookCounterFour from './components/HookCounterFour'
 
+
 class App extends Component {
 	render() {
 		return (
@@ -17,6 +18,7 @@ class App extends Component {
 				<HookCounterTwo />
 				<HookCounterThree /> */}
 				<HookCounterFour />
+				<HookCounterThree />
 			</div>
 		)
 	}

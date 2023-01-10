@@ -1,6 +1,6 @@
 import React from 'react'
 
-const UserContext = React.createContext('codevolution')
+const UserContext = React.createContext('Students')
 
 const UserProvider = UserContext.Provider
 const UserConsumer = UserContext.Consumer

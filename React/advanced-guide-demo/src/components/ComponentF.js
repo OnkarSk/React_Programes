@@ -6,7 +6,7 @@ export class ComponentF extends Component {
 		return (
 			<UserConsumer>
 				{username => {
-					return <div>Hello {username}</div>
+					return <div>Hello {this.props.name} and {username}</div>
 				}}
 			</UserConsumer>
 		)

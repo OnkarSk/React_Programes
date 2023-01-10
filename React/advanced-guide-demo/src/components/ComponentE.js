@@ -5,7 +5,7 @@ export class ComponentE extends Component {
 	render() {
 		return (
 			<div>
-				<ComponentF />
+				<ComponentF name={this.props.name}/>
 			</div>
 		)
 	}

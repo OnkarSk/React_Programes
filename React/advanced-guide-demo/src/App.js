@@ -18,11 +18,22 @@ import ComponentC from './components/ComponentC'
 import { UserProvider } from './components/userContext'
 
 class App extends Component {
+	constructor(props) {
+		super(props)
+		this.state = {
+			name : 'RS Softtech'
+		}
+		
+	  }
+	
 	render() {
 		return (
 			<div className="App">
-					<ComponentC />
-				 <Counter
+					<ComponentC name={this.state.name}/>
+					<ClickCounter name='Vishwas' /> 
+					
+					<FocusInput /> 
+				 {/*<Counter
 					render={(count, incrementCount) =>
 					<ClickCounterTwo
 						count={count}
@@ -40,10 +51,10 @@ class App extends Component {
 				 <HoverCounter /> 
 				<ParentComp /> 
 				 <Hero heroName="Batman" />
-				<Hero heroName="Superman" />
+				<Hero heroName="Superman" />*/}
 				<ErrorBoundary>
 					<Hero heroName="Joker1" />
-				</ErrorBoundary> 
+				</ErrorBoundary>  
 			</div>
 		)
 	}
